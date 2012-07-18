@@ -15,6 +15,12 @@
 		91ECE2DD15B6885F00709C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECE2DC15B6885F00709C10 /* AppDelegate.m */; };
 		91ECE2E015B6885F00709C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECE2DF15B6885F00709C10 /* ViewController.m */; };
 		91ECE2E315B6885F00709C10 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91ECE2E115B6885F00709C10 /* ViewController.xib */; };
+		91ECE2EA15B6894F00709C10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91ECE2E915B6894F00709C10 /* MapKit.framework */; };
+		91ECE2EC15B6897000709C10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91ECE2EB15B6897000709C10 /* CoreLocation.framework */; };
+		91ECE2F215B68EA300709C10 /* InterestPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECE2F115B68EA300709C10 /* InterestPoint.m */; };
+		91ECE30015B6D26E00709C10 /* Pointy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91ECE2FF15B6D26E00709C10 /* Pointy.gif */; };
+		91ECE30415B6D6A900709C10 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECE30215B6D6A900709C10 /* InfoViewController.m */; };
+		91ECE30515B6D6A900709C10 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91ECE30315B6D6A900709C10 /* InfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,23 @@
 		91ECE2CC15B6885F00709C10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91ECE2CE15B6885F00709C10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91ECE2D015B6885F00709C10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		91ECE2D415B6885F00709C10 /* Learn18Geocode-Info.plist */ = {isa = PBXFileReference; path = "Learn18Geocode-Info.plist"; sourceTree = "<group>"; };
+		91ECE2D415B6885F00709C10 /* Learn18Geocode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Learn18Geocode-Info.plist"; sourceTree = "<group>"; };
 		91ECE2D615B6885F00709C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91ECE2D815B6885F00709C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91ECE2DA15B6885F00709C10 /* Learn18Geocode-Prefix.pch */ = {isa = PBXFileReference; path = "Learn18Geocode-Prefix.pch"; sourceTree = "<group>"; };
-		91ECE2DB15B6885F00709C10 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		91ECE2DA15B6885F00709C10 /* Learn18Geocode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Learn18Geocode-Prefix.pch"; sourceTree = "<group>"; };
+		91ECE2DB15B6885F00709C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91ECE2DC15B6885F00709C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		91ECE2DE15B6885F00709C10 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		91ECE2DE15B6885F00709C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		91ECE2DF15B6885F00709C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		91ECE2E215B6885F00709C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		91ECE2E915B6894F00709C10 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91ECE2EB15B6897000709C10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		91ECE2F015B68EA300709C10 /* InterestPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestPoint.h; sourceTree = "<group>"; };
+		91ECE2F115B68EA300709C10 /* InterestPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestPoint.m; sourceTree = "<group>"; };
+		91ECE2FF15B6D26E00709C10 /* Pointy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Pointy.gif; path = "../../../../../Library/Application Support/Apple/iChat Icons/Funk Animals/Pointy.gif"; sourceTree = "<group>"; };
+		91ECE30115B6D6A900709C10 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		91ECE30215B6D6A900709C10 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		91ECE30315B6D6A900709C10 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91ECE2EC15B6897000709C10 /* CoreLocation.framework in Frameworks */,
+				91ECE2EA15B6894F00709C10 /* MapKit.framework in Frameworks */,
 				91ECE2CD15B6885F00709C10 /* UIKit.framework in Frameworks */,
 				91ECE2CF15B6885F00709C10 /* Foundation.framework in Frameworks */,
 				91ECE2D115B6885F00709C10 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,10 @@
 		91ECE2BD15B6885E00709C10 = {
 			isa = PBXGroup;
 			children = (
+				91ECE30115B6D6A900709C10 /* InfoViewController.h */,
+				91ECE30215B6D6A900709C10 /* InfoViewController.m */,
+				91ECE30315B6D6A900709C10 /* InfoViewController.xib */,
+				91ECE2FF15B6D26E00709C10 /* Pointy.gif */,
 				91ECE2D215B6885F00709C10 /* Learn18Geocode */,
 				91ECE2CB15B6885E00709C10 /* Frameworks */,
 				91ECE2C915B6885E00709C10 /* Products */,
@@ -67,6 +87,8 @@
 		91ECE2CB15B6885E00709C10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91ECE2EB15B6897000709C10 /* CoreLocation.framework */,
+				91ECE2E915B6894F00709C10 /* MapKit.framework */,
 				91ECE2CC15B6885F00709C10 /* UIKit.framework */,
 				91ECE2CE15B6885F00709C10 /* Foundation.framework */,
 				91ECE2D015B6885F00709C10 /* CoreGraphics.framework */,
@@ -83,6 +105,8 @@
 				91ECE2DF15B6885F00709C10 /* ViewController.m */,
 				91ECE2E115B6885F00709C10 /* ViewController.xib */,
 				91ECE2D315B6885F00709C10 /* Supporting Files */,
+				91ECE2F015B68EA300709C10 /* InterestPoint.h */,
+				91ECE2F115B68EA300709C10 /* InterestPoint.m */,
 			);
 			path = Learn18Geocode;
 			sourceTree = "<group>";
@@ -150,6 +174,8 @@
 			files = (
 				91ECE2D715B6885F00709C10 /* InfoPlist.strings in Resources */,
 				91ECE2E315B6885F00709C10 /* ViewController.xib in Resources */,
+				91ECE30015B6D26E00709C10 /* Pointy.gif in Resources */,
+				91ECE30515B6D6A900709C10 /* InfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +189,8 @@
 				91ECE2D915B6885F00709C10 /* main.m in Sources */,
 				91ECE2DD15B6885F00709C10 /* AppDelegate.m in Sources */,
 				91ECE2E015B6885F00709C10 /* ViewController.m in Sources */,
+				91ECE2F215B68EA300709C10 /* InterestPoint.m in Sources */,
+				91ECE30415B6D6A900709C10 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Learn18Geocode/Learn18Geocode-Prefix.pch";
 				INFOPLIST_FILE = "Learn18Geocode/Learn18Geocode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Learn18Geocode/Learn18Geocode-Prefix.pch";
 				INFOPLIST_FILE = "Learn18Geocode/Learn18Geocode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
